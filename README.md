@@ -139,7 +139,7 @@ It's recommended to display all whitespace characters to have a better control o
     - Between comments in the beginning of the file and `#include` directives.
     - Between `#include` directives and the actual code.
     - Between two classes in header files (this should be avoided though).
-- `3` between methods implementations.
+    - between methods implementations.
 
 ### Alignments
 - For multiple related definitions, you may align them by the rightmost name.
