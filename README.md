@@ -1,4 +1,21 @@
-- [C++ Code style guide](#c-code-style-guide)
+# C++ Code style guide
+
+This code style guide draft is made by DOCtorActoAntohich for personal use.
+
+This document assumes you know the basics of programming and are familiar with basic concepts of C++.
+
+This document may and should be expanded to cover more cases.
+
+Possible changes:
+* Snake case for type names instead of Pascal case.
+* Alignment rules when many function parameters go beyond line length limit.
+* Alignment rules for operators and long lines.
+
+Important note: think about optimization in two cases only: when you see that you use the language wrong (e.g. forgot to pass by reference), or when the code executes really slow.
+
+## Table of contents
+
+- C++ Code style guide
   - [Glossary](#glossary)
     - Naming cases
     - C++ related
@@ -78,21 +95,6 @@
     - If the project is intended for use in other projects
     - If the project is not intended for use in other projects (i.e. not a library)
   - [Relative path vs absolute path; Include path](#relative-path-vs-absolute-path-include-path)
-
-# C++ Code style guide
-
-This code style guide draft is made by DOCtorActoAntohich for personal use.
-
-This document assumes you know the basics of programming and are familiar with basic concepts of C++.
-
-This document may and should be expanded to cover more cases.
-
-Possible changes:
-* Snake case for type names instead of Pascal case.
-* Alignment rules when many function parameters go beyond line length limit.
-* Alignment rules for operators and long lines.
-
-Important note: think about optimization in two cases only: when you see that you use the language wrong (e.g. forgot to pass by reference), or when the code executes really slow.
 
 ## Glossary
 
